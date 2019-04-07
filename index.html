@@ -153,6 +153,29 @@
                 </div>
             </div>
             
+            <section>
+                <h1>Currency converter</h1>
+                <form class="converter">
+                    <label>
+                        From: <input type="text" name="curr-from">
+                    </label>
+                    <br>
+                    <label>
+                        To: <input type="text" name="curr-to">
+                    </label>
+                    <br>
+                    <label>
+                        Amount: <input type="number" name="curr-amount">
+                    </label>
+                    <br>
+                    <label>
+                        Converted: <output type="text" name="curr-converted"></output>
+                    </label>
+                    <br>
+                    <button class="curr-convert">Convert</button>
+                </form>
+            </section>
+            
             <div id="bottomBg" class="container-fluid">
             <div class="row topBlock">
                 <div class="col-lg-12 text-center">
@@ -167,29 +190,6 @@
                 </div>
             </div>
         </div> 
-            
-      <section>
-        <h1>Currency converter</h1>
-        <form class="converter">
-            <label>
-                From: <input type="text" name="curr-from">
-            </label>
-            <br>
-            <label>
-                To: <input type="text" name="curr-to">
-            </label>
-            <br>
-            <label>
-                Amount: <input type="number" name="curr-amount">
-            </label>
-            <br>
-            <label>
-                Converted: <output type="text" name="curr-converted"></output>
-            </label>
-            <br>
-            <button class="curr-convert">Convert</button>
-        </form>
-    </section>
         </footer>
     <script src = "js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
