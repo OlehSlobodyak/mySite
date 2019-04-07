@@ -1,0 +1,36 @@
+#head{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+}
+
+.content{
+    width: 1530;
+    height: 3357;
+}
+
+.first1{
+    font-family: Arial, sans-serif;
+    padding-top: 380px;
+    margin-left: 200px;
+    font-size: 20;
+}
+
+.first{
+    font-family: Arial, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 20;
+}
+
+.last{
+    padding-bottom: 80px;
+    font-family: Arial, sans-serif;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 20;
+}

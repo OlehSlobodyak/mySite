@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One');
+
+@media(max-width: 992px){
+    .description{
+        display: none;
+    }
+}
+
+body{
+    max-width: 100%;
+    margin: auto;
+}
+
+header .banner{
+    background-image: url(../ducati/xdiavel-s1.jpg);
+    min-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+#home{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#menu{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#contact{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    max-width: 45px;
+    max-height: 30px;
+}
+
+#aboutus{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    max-width: 45px;
+    max-height: 30px;
+}
+
+header .menu a:hover{
+    font-size: 20px;
+}
+
+
+.menu{
+    font-family: 'Anton';
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+ 
+}
+@media(max-width: 570px){
+    .toptitle, .toptext{
+        display: none;
+    }
+}
+header .logo{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    font-family: 'Anton';
+    font-size: 70px;
+/*    text-decoration: none;*/
+    color: black;
+    padding-top: 50px;
+    margin-left: 50px;
+    display: inline;
+}
+    
+header sub .sublogo{
+    position: absolute;
+    font-family: fantasy;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.toptitle{
+    position: absolute;
+    font-family: 'Fjalla One';
+    padding-top: 650px;
+    margin-left: 22px;
+    color: white;
+    text-shadow: 2px 2px 2px black, 3px 1px 7px black;
+    margin: 0 auto;
+    padding-left: 20px;
+    min-height: 100px;
+/*
+    max-height: 100px;
+    display: flex;
+*/
+}
+
+.toptext{
+    padding-top: 700px;
+    position: absolute;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Fjalla One';
+    font-size: 22px;
+    text-shadow: 2px 2px 2px black, 3px 1px 7px black;
+    margin: 0 auto;
+    padding-left: 20px;
+    min-height: 100px;
+}
+
+.sublogo{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+.subscribe1{
+    position: relative;
+}
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 0.7;
+}
+.subscribe1:hover .overlay{
+    width: 100%;
+}
+.subscribe1 p{
+    font-family: cursive;
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.subscribe1 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.subscribe2{
+    position: relative;
+}
+.subscribe2:hover .overlay{
+    width: 100%;
+}
+.subscribe2 p{
+    font-family: cursive;
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.subscribe2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.subscribe3{
+    position: relative;
+}
+.subscribe3:hover .overlay{
+    width: 100%;
+}
+.subscribe3 p{
+    font-family: cursive;
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+}
+.subscribe3 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.wheel{
+    margin-left: center;
+}
+
+.wheel1{
+    margin-left: center;
+}
+
+.charac1{
+    margin-top: 20px;
+    position: absolute;
+    text-decoration: underline; 
+}
+
+.charac11{
+    margin-top: 20px;
+    position: absolute;
+    text-decoration: underline; 
+    right: 20px;
+}
+
+.charac2{
+    margin-top: 80px;
+    position: absolute;
+    text-decoration: underline; 
+}
+
+.charac22{
+    margin-top: 80px;
+    position: absolute;
+    text-decoration: underline; 
+    right: 20px;
+}
+
+.charac3{
+    margin-top: 140px;
+    position: absolute;
+    text-decoration: underline; 
+}
+
+.charac33{
+    margin-top: 140px;
+    position: absolute;
+    text-decoration: underline; 
+    right: 20px;
+}
+
+.charac4{
+    margin-top: 200px;
+    position: absolute;
+    text-decoration: underline; 
+}
+
+.charac44{
+    margin-top: 200px;
+    position: absolute;
+    text-decoration: underline; 
+    right: 20px;
+}
+
+.charac5{
+    margin-top: 260px;
+    position: absolute;
+    text-decoration: underline; 
+}
+
+.charac55{
+    margin-top: 260px;
+    position: absolute;
+    text-decoration: underline; 
+    right: 20px;
+}
+
+.charac6{
+    margin-top: 320px;
+    position: absolute;
+    text-decoration: underline; 
+}
+
+.charac66{
+    margin-top: 320px;
+    position: absolute;
+    text-decoration: underline; 
+    right: 20px;
+}
+
+.charac7{
+    margin-top: 390px;
+    position: absolute;
+    text-decoration: underline; 
+}
+
+.charac77{
+    margin-top: 400px;
+    position: absolute;
+    text-decoration: underline; 
+    right: 20px;
+}
+
+
+.table{
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+    margin-top: 20px;
+}
+
+.wheel, .charac1, .charac2, .charac3, .charac4, .charac5, .charac6, .charac7{
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+.wheel1, .charac11, .charac22, .charac33, .charac44, .charac55, .charac66, .charac77{
+    font-family: cursive;
+}
+
+.mainpage{
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+}
+
+.video{
+   height: 500px;
+   width: 700px;
+}
+
+.bg{
+    background-color: dimgrey;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.copytitle{
+    text-align: center;
+    padding-top: 70px;
+    font-family: fantasy;
+    font-size: 60px;
+}
+
+.terms{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#bottomBg{
+    background-color: gray;
+    padding-bottom: 100px;
+}
+
+#btext{
+    font-size: 60px;
+    font-family: fantasy;
+    font-style: oblique;
+    margin-top: 50px;
+    
+}
+
+#btext2{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: fantasy;
+    font-style: oblique;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+#btext3{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: fantasy;
+    font-style: oblique;
+    position: absolute;
+    margin-left: 733px;
+    margin-top: 30px;
+}
+#btext4{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: fantasy;
+    font-style: oblique;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 30px; 
+}
+
+#btext5{
+    font-size: 15px;
+    font-family: fantasy;
+    font-style: oblique;
+    margin-top: 100px; 
+    text-align: center;
+}
+
+.linkfb{
+    position: absolute;
+    margin-left: -40px;  
+    margin-top: 50px;
+}
+
+.linkin{
+    position: absolute;
+    margin-top: 50px;
+}
+
+.linktw{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
