@@ -6,111 +6,136 @@
     }
 }
 
+@media(min-width: 550px){
+    .navMenu{
+        display: none;
+    }
+}
+
+@media(max-width: 550px){
+    #home, #menu, #contact, #aboutus{
+        display: none;
+    }
+}
+
+.clock{
+    position: absolute;
+    color: white;
+    
+}
+
+header {
+  position: relative;
+  height: 105vh;
+  overflow: hidden;
+}
+
+video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
 body{
     max-width: 100%;
     margin: auto;
 }
 
-header .banner{
-    background-image: url(../ducati/xdiavel-s1.jpg);
-    min-height: 900px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
-    min-width: 320px;
-}
-
-#home{
+#home, #home2{
     text-decoration: none;
     color: black;
     text-decoration: underline;
     max-width: 30px;
     max-height: 30px;
+    color: white;
+    margin-left: -30px;
 }
 
-#menu{
+#menu, #menu2{
     text-decoration: none;
     color: black;
     text-decoration: underline;
     max-width: 30px;
     max-height: 30px;
+    color: white;
+    margin-left: -30px;
 }
 
-#contact{
+#contact, #contact2{
     text-decoration: none;
     color: black;
     text-decoration: underline;
     max-width: 45px;
     max-height: 30px;
+    color: white;
+    margin-left: -30px;
 }
 
-#aboutus{
+#aboutus, #aboutus2{
     text-decoration: none;
     color: black;
     text-decoration: underline;
     max-width: 45px;
     max-height: 30px;
+    color: white;
+    margin-left: -30px;
 }
 
 header .menu a:hover{
     font-size: 20px;
+    padding: 0;
 }
 
 
 .menu{
     font-family: 'Anton';
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 15px;
- 
 }
+
+.menu2{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media(max-width: 570px){
     .toptitle, .toptext{
         display: none;
     }
 }
+
 header .logo{
-    display: flex;
     flex-wrap: wrap;
-    position: absolute;
     font-family: 'Anton';
     font-size: 70px;
-/*    text-decoration: none;*/
     color: black;
-    padding-top: 50px;
-    margin-left: 50px;
-    display: inline;
-}
-    
-header sub .sublogo{
-    position: absolute;
-    font-family: fantasy;
-    font-size: 50px;
-    text-decoration: none;
-    color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .toptitle{
     position: absolute;
     font-family: 'Fjalla One';
-    padding-top: 650px;
-    margin-left: 22px;
+    padding-top: 590px;
     color: white;
     text-shadow: 2px 2px 2px black, 3px 1px 7px black;
     margin: 0 auto;
     padding-left: 20px;
-    min-height: 100px;
-/*
-    max-height: 100px;
-    display: flex;
-*/
 }
 
 .toptext{
-    padding-top: 700px;
+    padding-top: 640px;
     position: absolute;
     margin-left: 20px;
     color: white;
@@ -119,11 +144,6 @@ header sub .sublogo{
     text-shadow: 2px 2px 2px black, 3px 1px 7px black;
     margin: 0 auto;
     padding-left: 20px;
-    min-height: 100px;
-}
-
-.sublogo{
-    font-size: 16px;
 }
 
 body{
@@ -132,6 +152,7 @@ body{
 
 .subscribe1{
     position: relative;
+    max-width: 100%;
 }
 .overlay{
   position: absolute;
@@ -150,7 +171,6 @@ body{
 }
 .subscribe1 p{
     font-family: cursive;
-    white-space: nowrap; 
     color: white;
     font-size: 20px;
     position: absolute;
@@ -174,7 +194,6 @@ body{
 }
 .subscribe2 p{
     font-family: cursive;
-    white-space: nowrap; 
     color: white;
     font-size: 20px;
     position: absolute;
@@ -198,7 +217,6 @@ body{
 }
 .subscribe3 p{
     font-family: cursive;
-    white-space: nowrap; 
     color: white;
     font-size: 20px;
     position: absolute;
@@ -214,110 +232,97 @@ body{
     height: auto;
 }
 
-.wheel{
-    margin-left: center;
-}
-
-.wheel1{
-    margin-left: center;
-}
-
 .charac1{
-    margin-top: 20px;
     position: absolute;
     text-decoration: underline; 
 }
 
 .charac11{
-    margin-top: 20px;
     position: absolute;
     text-decoration: underline; 
     right: 20px;
 }
 
 .charac2{
-    margin-top: 80px;
+    margin-top: 55px;
     position: absolute;
     text-decoration: underline; 
 }
 
 .charac22{
-    margin-top: 80px;
+    margin-top: 55px;
     position: absolute;
     text-decoration: underline; 
     right: 20px;
 }
 
 .charac3{
-    margin-top: 140px;
+    margin-top: 110px;
     position: absolute;
     text-decoration: underline; 
 }
 
 .charac33{
-    margin-top: 140px;
+    margin-top: 110px;
     position: absolute;
     text-decoration: underline; 
     right: 20px;
 }
 
 .charac4{
-    margin-top: 200px;
+    margin-top: 155px;
     position: absolute;
     text-decoration: underline; 
 }
 
 .charac44{
-    margin-top: 200px;
+    margin-top: 155px;
     position: absolute;
     text-decoration: underline; 
     right: 20px;
 }
 
 .charac5{
-    margin-top: 260px;
+    margin-top: 200px;
     position: absolute;
     text-decoration: underline; 
 }
 
 .charac55{
-    margin-top: 260px;
+    margin-top: 200px;
     position: absolute;
     text-decoration: underline; 
     right: 20px;
 }
 
 .charac6{
-    margin-top: 320px;
+    margin-top: 250px;
     position: absolute;
     text-decoration: underline; 
 }
 
 .charac66{
-    margin-top: 320px;
+    margin-top: 235px;
     position: absolute;
     text-decoration: underline; 
     right: 20px;
 }
 
 .charac7{
-    margin-top: 390px;
+    margin-top: 295px;
     position: absolute;
     text-decoration: underline; 
 }
 
 .charac77{
-    margin-top: 400px;
+    margin-top: 300px;
     position: absolute;
     text-decoration: underline; 
     right: 20px;
 }
 
-
-.table{
-    display: grid;
-    grid-template-columns: 1000px 1000px;
-    margin-top: 20px;
+.description{
+    margin-top: 30px;
 }
 
 .wheel, .charac1, .charac2, .charac3, .charac4, .charac5, .charac6, .charac7{
@@ -329,41 +334,22 @@ body{
     font-family: cursive;
 }
 
-.mainpage{
-    font-family: fantasy;
-    text-decoration: none;
-    color: black;
-}
-
-.video{
-   height: 500px;
-   width: 700px;
-}
-
-.bg{
-    background-color: dimgrey;
-    margin: 0;
-    padding: 0;
-}
-
-.copyright{
-    text-align: center;
+.xdiavel{
+    width: 100%;
     padding-top: 100px;
-    padding-bottom: 40px;
 }
 
-.copytitle{
-    text-align: center;
-    padding-top: 70px;
-    font-family: fantasy;
+.xdiavelText{
+    font-family: 'Anton';
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.xdiavelTextHead{
+    font-family: 'Fjalla+One';
     font-size: 60px;
-}
+    padding-top: 100px;
 
-.terms{
-    text-align: center;
-    color: black;
-    font-family: sans-serif;
-    text-decoration: none;
 }
 
 #bottomBg{
@@ -376,38 +362,26 @@ body{
     font-family: fantasy;
     font-style: oblique;
     margin-top: 50px;
+    text-align: center;
+    color: black;
     
 }
 
 #btext2{
-    display: flex;
-    flex-wrap: wrap;
     font-size: 15px;
     font-family: fantasy;
     font-style: oblique;
-    position: absolute;
-    margin-left: 550px;
-    margin-top: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
 }
-#btext3{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 15px;
-    font-family: fantasy;
-    font-style: oblique;
-    position: absolute;
-    margin-left: 733px;
-    margin-top: 30px;
-}
-#btext4{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 15px;
-    font-family: fantasy;
-    font-style: oblique;
-    position: absolute;
-    margin-left: 950px;
-    margin-top: 30px; 
+
+#btext2 p{
+    display: block;
+    color: black;
 }
 
 #btext5{
@@ -416,6 +390,8 @@ body{
     font-style: oblique;
     margin-top: 100px; 
     text-align: center;
+    color: black;
+    
 }
 
 .linkfb{

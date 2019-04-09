@@ -10,20 +10,44 @@
 </head>
     
 <body>
-    
   <header>
-      <div  class="banner">
-        <p class="logo">Ducati<sub class="sublogo">Official site</sub></p>
-        <div class="menu col-lg-12">
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="ducati/ducati%20diavel.mp4" type="video/mp4">
+      </video>
+          <div class="pos-f-t navMenu">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                   <div class="menu2 col-lg-12">
+                     <a id="home2" href="#home">Home</a>
+                     <a id="menu2" href="#menu">Menu</a>
+                     <a id="contact2" href="form.html">Contact</a>
+                     <a id="aboutus2" href="#aboutus">About Us</a>
+                   </div>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav>
+          </div>
+      <div class="banner col-lg-12">    
+        <div class="menu">
+            <div class="clock"></div>
+            <div>
+            <p class="logo">Ducati</p>
+          </div>
             <a id="home" href="#home">Home</a>
             <a id="menu" href="#menu">Menu</a>
             <a id="contact" href="form.html">Contact</a>
             <a id="aboutus" href="#aboutus">About Us</a>
         </div>
-        <div class="container-fluid">
-            <h1 class="toptitle">Season's Greetings</h1>
-          <div>
-            <p class="toptext">
+        <div>
+            <div>
+                <h1 class="toptitle">Season's Greetings</h1>
+            </div>    
+          <div class="toptext">
+            <p>
                 A year of passion, innovation, continued growth.<br> This has been the 2018,
                 characterized by many exciting moments like the victories in MotoGP,<br>
                 the 90 thousand attendances at the World Ducati Week and the Ducati World Première.
@@ -40,7 +64,7 @@
                 Low speed excitement Ducati enters the Cruiser world and does so in its very own way,<br> representing the best of both worlds. The Ducati world: thrilling performance,<br> sporty power, advanced electronics. The cruiser world: long, low, forward positioned footpegs,<br> powerful torque even at low speeds, no  compromise in terms of materals and finishes.<br> The XDiavel is now available in the new color Matt Liquid Concrete Grey.  
             </p>
         </div>        
-            <img src="ducati/xdiavel3.jpg">
+            <img class="pict1" src="ducati/xdiavel3.jpg">
         </div><hr>
         
         <div class="subscribe2">
@@ -129,13 +153,13 @@
                     <dt class="charac5">SEAT HEIGHT</dt>
                         <dd class="charac55">755 mm (29,72 in)</dd>
                     <dt class="charac6">SAFETY EQUIPMENT</dt>
-                        <dd class="charac66">Ducati Safety Pack (Cornering ABS Bosch,<br> Ducati Traction control DTC), Riding Mode,<br> Power Mode</dd>
+                        <dd class="charac66">Ducati Safety Pack (Cornering ABS Bosch,<br> Ducati Traction control DTC), Riding Mode</dd>
                     <dt class="charac7">MAINTEINANCE SERVICE<br> INTERVALS</dt>
                         <dd class="charac77">9,000m/12 Months</dd>
                 </dl>
             </div>
           </div>
-        </div>  
+        </div> 
         
      </main>
     
@@ -143,12 +167,12 @@
             <div class="container-fluid">
                 <div class="row text-center">
                     <div class = "col-lg-6">
-                       <iframe class="video" src="https://www.youtube.com/embed/6lZDatAzPEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"          allowfullscreen>
-                       </iframe>
+                       <img class="xdiavel" src="ducati/xdiavel.jpg">
                     </div>
                     <div class="col-lg-6">
-                        <h1>Enjoy the road, with confidence</h1>
-                        <p>When designing each bike, Ducati constantly aims to ensure maximum reliability and to reduce maintenance costs. A commitment that has made it possible to lengthen the times between Desmo Service scheduled maintenance checkups (during which valve clearance is checked and adjusted as needed) to 30,000 km for the Testastretta DVT 1262 engine of the XDiavel S. Even the simplest checkups like the Oil Service have reached 15,000 km or 12 months. A considerable range for high performance engines, which confirms the high quality standards adopted in the choice of materials and research and development processes.</p>
+                        <h1 class="xdiavelTextHead">Enjoy the road, with confidence</h1>
+                        <p class="xdiavelText">When designing each bike, Ducati constantly aims to ensure maximum reliability and to reduce maintenance costs. A commitment that has made it        possible to lengthen the times between Desmo Service scheduled maintenance checkups (during which valve clearance is checked and adjusted as needed) to 30,000 km for    the Testastretta DVT 1262 engine of the XDiavel S. Even the simplest checkups like the Oil Service have reached 15,000 km or 12 months. A considerable range for high    performance engines, which confirms the high quality standards adopted in the choice of materials and research and development processes.
+                        </p>
                     </div>    
                 </div>
             </div>
@@ -175,14 +199,16 @@
                     <button class="curr-convert">Convert</button>
                 </form>
             </section>
-            
+
             <div id="bottomBg" class="container-fluid">
             <div class="row topBlock">
                 <div class="col-lg-12 text-center">
                     <p id="btext">DUCATI</p>
-                    <a style="text-decoration: none" href="#"><p id="btext2">TERMS OF USE</p></a>
-                    <a style="text-decoration: none" href="Privacy.html"><p id="btext3">PRIVACY INFORMATION</p></a>
-                    <a style="text-decoration: none" href="#"><p id="btext4">COOKIES INFORMATION</p></a>
+                    <div id="btext2">
+                        <a style="text-decoration: none" href="#"><p>TERMS OF USE</p></a>
+                        <a style="text-decoration: none" href="Privacy.html"><p>PRIVACY INFORMATION</p></a>
+                        <a style="text-decoration: none" href="#"><p>COOKIES INFORMATION</p></a>
+                    </div>    
                     <p id="btext5">Copyright © 2018 Ducati Motor Holding S.p.A – A Sole Shareholder Company - A Company subject to the Management and Coordination<br> activities of AUDI AG. All rights reserved. VAT 05113870967</p>
                    <a class="linkfb" href="https://www.facebook.com/Ducati/"><img src="photo/logo_fb_white.png" width="30px" height="30px"></a>
                     <a class="linkin" href="https://www.instagram.com/ducatimotor/?hl=uk"><img src="photo/logo_in_white.png" width="30px" height="30px"></a>
@@ -193,7 +219,7 @@
         </footer>
     <script src = "js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-   UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
