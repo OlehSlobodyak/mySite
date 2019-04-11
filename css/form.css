@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One');
+
+body{
+    background-color: gray;
+}
+
+.mainpage{
+    font-family: 'Anton';
+    text-decoration: underline;
+    color: black;   
+}
+
+.contacts{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Anton';
+}

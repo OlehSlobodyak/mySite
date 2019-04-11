@@ -4,40 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>Form</title>
 </head>
     <body>
         
+        <header>
         <div>
             <a href="index.html"><p class="mainpage">Main Page</p></a>
         </div>
-        <div id="contacts">
+        <div class="contacts">
             <h1>Our contacts</h1>
             <p>Adress: headquartered in Bologna, Italy</p>
             <p>Phone number: +5213908232</p>
         </div>
         
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        
-        
-<!--
-        <form>
+       </header> 
+        <form method="POST" action="https://formspree.io/olehslobodyak988@gmail.com">
             <label for="client-name">Name: </label>
             <input id="client-name" type="text" placeholder="Name">
             <label>Email: <input type="email" placeholder="Email"></label><br>
@@ -48,7 +31,7 @@
             <br>
             <label for="selectbike">Choose a bike: </label>
         <select id="selectbike">
-            <option disabled>Choose a bike</option>
+            <option disabled>What bike do you like</option>
             <option>XDiavel</option>  
             <option>Monster</option>  
             <option>Panigale</option>  
@@ -58,6 +41,5 @@
             <br>
             <input type="submit">
         </form>
--->
     </body>
 </html>

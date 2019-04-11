@@ -18,10 +18,16 @@
     }
 }
 
+.menu2{
+    font-family: fantasy;
+    font-size: 18px;
+}
+
 .clock{
     position: absolute;
     color: white;
-    
+    margin-top: 110px;
+    margin-left: 60px;
 }
 
 header {
@@ -146,8 +152,20 @@ header .logo{
     padding-left: 20px;
 }
 
-body{
-    margin: 0;
+.pict1{
+     margin-top: 10px;
+}
+
+.pict2{
+     margin-top: 10px;
+}
+
+.pict3{
+     margin-top: 10px;
+}
+
+#carouselExampleFade{
+    margin-top: 10px;
 }
 
 .subscribe1{
@@ -189,6 +207,7 @@ body{
 .subscribe2{
     position: relative;
 }
+
 .subscribe2:hover .overlay{
     width: 100%;
 }
@@ -337,6 +356,7 @@ body{
 .xdiavel{
     width: 100%;
     padding-top: 100px;
+    margin-bottom: 20px;
 }
 
 .xdiavelText{
