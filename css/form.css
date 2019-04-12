@@ -10,9 +10,48 @@ body{
     color: black;   
 }
 
+.logo{
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 60px;
+    font-style: oblique;
+}
+
 .contacts{
     display: flex;
     text-align: center;
     flex-direction: column;
     font-family: 'Anton';
+    margin-top: 50px;
+}
+
+.form{
+    margin-left: 650px;
+}
+
+#btext2{
+    font-size: 15px;
+    font-family: fantasy;
+    font-style: oblique;
+    margin-left: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+
+#btext2 p{
+    display: block;
+    color: black;
+}
+
+#btext5{
+    font-size: 15px;
+    font-family: fantasy;
+    font-style: oblique;
+    margin-top: 100px; 
+    text-align: center;
+    color: black;
+    
 }
